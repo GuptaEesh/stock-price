@@ -46,9 +46,9 @@ button{
     height: 100vh;
     margin: 1rem 10rem;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50%;
     background-position: center;
     margin-left: 28rem;
-    
+    border:2px solid black;
 }
   
