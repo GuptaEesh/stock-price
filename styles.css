@@ -13,10 +13,14 @@ h1{
 }
 h2{
     margin-bottom: 0;
+    font-size: x-large;
 }
 input{
     width: 80%;
     height: 5vh;
+    font-size: x-large;
+    font-family: 'PT Sans', sans-serif;
+
 }
 p{
     max-width: 300px;
@@ -24,6 +28,7 @@ p{
     font-weight: 700;    
 }
 button{
+    font-size: x-large;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     font-weight: 600;
