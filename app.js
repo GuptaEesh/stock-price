@@ -20,7 +20,7 @@ function clickHandler() {
             row.style.display = "none";
         }
         document.body.style.backgroundColor = "black";
-        output.innerText = "The loss suffered is " + (buy - sell) * noOfStocks + " and the loss percentage is " + ((((buy - sell) / buy) * 100).toFixed(2)) + "% 😣😔";
+        output.innerText = "The loss suffered is " + ((((buy - sell).toFixed(2)) * noOfStocks).toFixed(2)) + "₹ and the loss percentage is " + ((((buy - sell) / buy) * 100).toFixed(2)) + "% 😣😔";
         output.style.color = "red";
     } else {
         if ((((sell - buy) / buy) * 100) >= 50) {
@@ -30,7 +30,7 @@ function clickHandler() {
             row.style.display = "none";
         }
         document.body.style.backgroundColor = "violet";
-        output.innerText = "The profit incurred is " + (sell - buy) * noOfStocks + " and the profit percentage is " + ((((sell - buy) / buy) * 100).toFixed(2)) + "% 😍😄🎉";
+        output.innerText = "The profit incurred is " + ((((sell - buy).toFixed(2)) * noOfStocks).toFixed(2)) + "₹ and the profit percentage is " + ((((sell - buy) / buy) * 100).toFixed(2)) + "% 😍😄🎉";
         output.style.color = "green";
 
 
