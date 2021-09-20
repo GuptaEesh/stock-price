@@ -8,6 +8,10 @@ function clickHandler() {
         alert("Please, fill out all the fields!");
         exit;
     }
+    if (info[0].value < 0 || info[1].value < 0 || info[2].value < 0) {
+        alert("Values can't be negative!");
+        exit;
+    }
     var buy = info[0].value;
     var noOfStocks = info[1].value;
     var sell = info[2].value;
