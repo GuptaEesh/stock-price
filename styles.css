@@ -35,6 +35,15 @@ button{
     border: 0;
     height: 5vh;
     font-family: 'PT Sans', sans-serif;
+    box-shadow: 2px 2px whitesmoke;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.95);
+    
+
 }
 .column{
   float: left;
@@ -50,5 +59,6 @@ button{
     background-position: center;
     margin-left: 28rem;
     border:2px solid var(--secondary-color);
+    box-shadow: 1px 1px 18px var(--secondary-color);
 }
   
